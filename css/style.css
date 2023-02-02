@@ -20,11 +20,22 @@ body{
     background-color: yellow;
     margin: 0 auto;
     width: 70%;
+    text-align: center;
 }
 
 /* HEADER */
 h1{
     font-weight: 700;
     font-size: 5rem;
-    text-align: center;
+    margin-bottom: 100px;
 }
+
+/* MAIN */
+/* Parapgraph */
+.subtitle{
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 100px;
+}
+
+/* Cards */
