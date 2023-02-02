@@ -17,10 +17,10 @@ body{
 }
 
 .container{
-    background-color: yellow;
-    margin: 0 auto;
-    width: 70%;
-    text-align: center;
+    background-color: white;
+    margin: 100px auto;
+    width: 80%;
+    max-width: 2000px;
 }
 
 /* HEADER */
@@ -28,14 +28,60 @@ h1{
     font-weight: 700;
     font-size: 5rem;
     margin-bottom: 100px;
+    color: #e35590;
+    text-align: center;
+
 }
 
 /* MAIN */
 /* Parapgraph */
 .subtitle{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 3rem;
     margin-bottom: 100px;
+        text-align: center;
+
 }
 
 /* Cards */
+.card-box{
+    width: calc(100% / 3 - 40px);
+    background-color: black;
+    float: left;
+    color: white;
+    margin: 20px;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profile-pic{
+    float: left;
+    max-width: 100%;
+} 
+
+.details{
+    float: left;
+    margin: 20px;
+    line-height: 50px;
+}
+
+.profile-name{
+    text-align: left;
+    font-size: 2rem;
+}
+
+.profession{
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.profile-email{
+    text-align: left;
+    color: #53adc9;
+} 
