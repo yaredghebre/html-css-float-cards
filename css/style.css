@@ -16,3 +16,15 @@ body{
     font-family: 'Fredoka', sans-serif;
 }
 
+.container{
+    background-color: yellow;
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* HEADER */
+h1{
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: center;
+}
