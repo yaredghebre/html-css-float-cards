@@ -44,19 +44,17 @@ h1{
 }
 
 /* Cards */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .card-box{
     width: calc(100% / 3 - 40px);
     background-color: black;
     float: left;
     color: white;
     margin: 20px;
-
-}
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .profile-pic{
@@ -68,23 +66,20 @@ h1{
     float: left;
     margin: 20px;
     line-height: 50px;
-    /* font-weight: 400; */
+    font-size: 2rem;
 }
 
 .profile-name{
-    text-align: left;
     font-size: 2rem;
     font-weight: 600;
 }
 
 .profession{
-    text-align: left;
     font-size: 2rem;
     font-weight: 400;
 }
 
 .profile-email{
-    text-align: left;
     color: #53adc9;
     font-size: 2rem;
     font-weight: 400;
